@@ -1,0 +1,187 @@
+body{
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.menu_container
+{
+    background-color: lightblue;
+    height:80px;
+}
+.formula_container
+{
+    background-color: lightgray;
+    height:30px;
+}
+/* .grid
+{
+    height:calc(100vh - ( 80px + 30px + 40px ))
+} */
+.sheets{
+    background-color: lightgrey;
+    height:30px;
+    display: flex;
+
+}
+.add_sheet_container
+{
+    height:100%;
+    width:30px;
+    border:1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon
+{
+    font-size: 1.2rem;
+    color: lightgreen;
+}
+.sheet_list
+{
+    display: flex;
+    height: 100%;
+
+}
+.sheet{
+width: 60px;
+height: 100%;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.active_sheet
+{
+    background-color: white;
+}
+
+
+.top-left-block {
+    height: 30px;
+    width: 25px;
+    background-color: gray;
+}
+
+.top-row {
+    height: 30px;
+    background-color: lightgreen;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 25px
+}
+
+.grid_container {
+    position: relative;
+    overflow:auto;
+    height:calc(100vh - ( 80px + 30px + 40px ))
+    
+}
+.row {
+    display: flex;
+}
+.col {
+    min-width: 80px;
+    border: 1px solid;
+    min-height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-col {
+    width: 25px;
+    border: 1px solid red;
+}
+
+.grid {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    height:calc(100vh - ( 80px + 30px + 40px + 30px ))
+    
+}
+
+.left-col_box {
+    height: 30px;
+    background-color: lightgreen;
+    text-align: center;
+    border: 1px solid;
+}
+.font_style {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2rem;
+    width: 17rem;
+}
+.bold_div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:1.5rem;
+    background-color: lightgrey;
+    width: 1.3rem;
+    border:1px solid black;
+}
+
+.Underline_div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:1.5rem;
+    background-color: lightgrey;
+    width: 1.3rem;
+    border:1px solid black;
+}
+.Italic_div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:1.5rem;
+    background-color: lightgrey;
+    width: 1.3rem;
+    border:1px solid black;
+}
+
+.inner1{
+    background-color: white;
+    height:1rem;
+    width:1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner2{
+    background-color:black;
+    height:1rem;
+    width:1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightgray;
+    height:1.5rem;
+    width:2.3rem;
+}
+
+.align{
+    width:2rem;
+    height: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 229, 229);
+    border: 1px solid black;
+}
